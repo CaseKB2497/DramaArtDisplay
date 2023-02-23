@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5f6fa55ee0.js" crossorigin="anonymous"></script>
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-logo" src="images/gottm-logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Art</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tattoo-info.html">Tattoo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <button id="prev-btn">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
+
+    <!-- The Book -->
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <img class="cover-img" src="images/gottm-logo.PNG" alt="dog">
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                  <img class="art-img" src="images/medusa-in-progress.PNG" alt="dog">
+                </div>
+            </div>
+        </div>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                  <img class="art-img" src="images/medusa-done.PNG" alt="dog">
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                  <img class="art-img" src="images/fish-1.PNG" alt="dog">
+                </div>
+            </div>
+        </div>
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                  <img class="art-img" src="images/fish-2.PNG" alt="dog">
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                  <img class="art-img" src="images/medusa-done-2.PNG" alt="dog">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="next-btn">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
+
+
+</body>
+</html>
