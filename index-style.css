@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    background-color: rgb(227, 231, 233);
+    background-color: rgb(32, 71, 90);
   }
   
   /* navbar styles */
@@ -22,8 +22,7 @@
     align-items: center;
     padding: 20px;
     background-color: black;
-    color: white;
-    font-size: 20px;
+    font-size: 22px;
   }
   
   nav img {
@@ -40,7 +39,6 @@
   }
   
   nav ul li a {
-    color: white;
     text-decoration: none;
   }
   

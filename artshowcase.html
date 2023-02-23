@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book</title>
      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/5f6fa55ee0.js" crossorigin="anonymous"></script>
     <script defer src="./main.js"></script>
 </head>
 
 <body>
+  <div>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="index.html">
@@ -40,58 +41,69 @@
         </ul>
       </div>
     </nav>
-    
-    <button id="prev-btn">
+  </div>
+  <div class="container mt-5">
+    <h1>&nbsp;</h1>
+    <h1 class="display-4 text-center">Ramón Torres </h1>
+    <p class="lead text-center">
+      Blah Blah Blah lot's of stuff about me and my art can go here. I love love love tattoos and owe all my inspiration to my good friend krispy_topher. 
+    </p>
+    <p class="text-center">
+      I've given it a lot of thought and I really do like this flip-book style of showcasing my art.
+    </p>
+  </div>
+
+    <div class="book-container">
+      <button id="prev-btn">
         <i class="fas fa-arrow-circle-left"></i>
-    </button>
-
-    <!-- The Book -->
-    <div id="book" class="book">
-        <!-- Paper 1 -->
-        <div id="p1" class="paper">
-            <div class="front">
-                <div id="f1" class="front-content">
-                    <img class="cover-img" src="images/gottm-logo.PNG" alt="dog">
-                </div>
-            </div>
-            <div class="back">
-                <div id="b1" class="back-content">
-                  <img class="art-img" src="images/medusa-in-progress.PNG" alt="dog">
-                </div>
-            </div>
-        </div>
-        <!-- Paper 2 -->
-        <div id="p2" class="paper">
-            <div class="front">
-                <div id="f2" class="front-content">
-                  <img class="art-img" src="images/medusa-done.PNG" alt="dog">
-                </div>
-            </div>
-            <div class="back">
-                <div id="b2" class="back-content">
-                  <img class="art-img" src="images/fish-1.PNG" alt="dog">
-                </div>
-            </div>
-        </div>
-        <!-- Paper 3 -->
-        <div id="p3" class="paper">
-            <div class="front">
-                <div id="f3" class="front-content">
-                  <img class="art-img" src="images/fish-2.PNG" alt="dog">
-                </div>
-            </div>
-            <div class="back">
-                <div id="b3" class="back-content">
-                  <img class="art-img" src="images/medusa-done-2.PNG" alt="dog">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <button id="next-btn">
+      </button>
+      <!-- The Book -->
+      <div id="book" class="book">
+          <!-- Paper 1 -->
+          <div id="p1" class="paper">
+              <div class="front">
+                  <div id="f1" class="front-content">
+                      <img class="cover-img" src="images/composition-book.jpg" alt="dog">
+                  </div>
+              </div>
+              <div class="back">
+                  <div id="b1" class="back-content">
+                    <img class="art-img" src="images/medusa-in-progress.PNG" alt="dog">
+                  </div>
+              </div>
+          </div>
+          <!-- Paper 2 -->
+          <div id="p2" class="paper">
+              <div class="front">
+                  <div id="f2" class="front-content">
+                    <img class="art-img" src="images/medusa-done.PNG" alt="dog">
+                  </div>
+              </div>
+              <div class="back">
+                  <div id="b2" class="back-content">
+                    <img class="art-img" src="images/fish-1.PNG" alt="dog">
+                  </div>
+              </div>
+          </div>
+          <!-- Paper 3 -->
+          <div id="p3" class="paper">
+              <div class="front">
+                  <div id="f3" class="front-content">
+                    <img class="art-img" src="images/fish-2.PNG" alt="dog">
+                  </div>
+              </div>
+              <div class="back">
+                  <div id="b3" class="back-content">
+                    <img class="art-img" src="images/composition-book.jpg" alt="dog">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button id="next-btn">
         <i class="fas fa-arrow-circle-right"></i>
-    </button>
-
+      </button>
+    </div>
+    
 
 </body>
 </html>

@@ -7,19 +7,35 @@
 }
 
 body {
-  height: 100vh;
+  margin: 10px;
+  background-color: rgb(243, 245, 247);
+}
+
+
+
+.first-container {
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
-  background-color: rgb(29, 76, 100);
+  background-color: rgb(243, 245, 247);
+}
+
+.book-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: rgb(243, 245, 247);
 }
 
 /* Button */
 button {
   border: none;
   background-color: transparent;
-  margin: 10px;
+  margin: 30px;
   cursor: pointer;
   transition: transform 0.8s;
 }
@@ -123,10 +139,10 @@ i {
 }
 
 .cover-img {
-  width: 210px;
-  height: 270px;
+  width: 370px;
+  height: 500px;
   object-fit: cover;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 
 .art-img {
@@ -191,3 +207,4 @@ nav ul li a {
   align-items: center;
   padding: 10px;
 }
+
